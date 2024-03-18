@@ -24,12 +24,12 @@ Para desplegar el proyecto localmente, sigue estos pasos:
    ```bash
    git clone https://github.com/tu-usuario/rimec-frontend-challenge.git
 2. **Instala las dependencias:**
-```markdown
+ ```bash
 cd rimac-frontend-challenge
 npm install
 ```
 3. **Inicia la aplicación:**
-```markdown
+ ```bash
 npm start
 ```
 
