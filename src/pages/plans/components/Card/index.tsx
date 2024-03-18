@@ -1,14 +1,14 @@
 import { CheckIcon } from '../../../../components/Icons/CheckIcon';
-import { SmallCardProps } from './interfaces';
+import { CardProps } from './interfaces';
 import './styles.scss';
 
-export const SmallCard = ({
+export const Card = ({
   Icon,
   title,
   description,
   selected,
   onClick,
-}: SmallCardProps) => {
+}: CardProps) => {
   return (
     <button
       className={`smallcard-container ${selected ? 'selected' : 'unselected'}`}

@@ -46,3 +46,33 @@
     }
   }
 }
+.arrow-reversed .arrow-icon {
+  transform: rotate(180deg);
+}
+.pagination {
+  display: none; // Por defecto, oculta la paginación
+
+  @media screen and (max-width: 700px) {
+    // Muestra la paginación solo en dispositivos móviles
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #4f4fff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    outline: none;
+
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+}

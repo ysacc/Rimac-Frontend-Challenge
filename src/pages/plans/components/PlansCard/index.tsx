@@ -4,7 +4,7 @@ import { usePlanCard } from '../../../../hooks/usePlanCard';
 import { PlanCardProps } from './interfaces';
 import './styles.scss';
 
-export const PlanCard = ({ title, price, descriptions }: PlanCardProps) => {
+export const PlansCard = ({ title, price, descriptions }: PlanCardProps) => {
   const { handleSelectPlan } = usePlanCard();
 
   return (
