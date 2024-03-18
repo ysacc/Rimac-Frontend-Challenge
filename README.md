@@ -1,31 +1,45 @@
-# React + TypeScript + Vite
+Rimac Frontend Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una solución al desafío de frontend propuesto por Rimac, donde se emplearon tecnologías como React, Sass, TypeScript, APIs, diseño responsive, maquetización, componentes, interfaces, entre otros. El objetivo principal es proporcionar una aplicación web que cumpla con los requisitos planteados, con un enfoque en la usabilidad y la calidad del código.
 
-Currently, two official plugins are available:
+Características principales
+Utiliza React para la construcción de la interfaz de usuario, proporcionando un enfoque modular y eficiente.
+Se emplea Sass para una gestión más efectiva de los estilos, permitiendo una mejor organización y mantenibilidad del código CSS.
+TypeScript se utiliza para agregar tipado estático a JavaScript, lo que mejora la robustez y la claridad del código.
+La aplicación consume APIs para obtener datos dinámicos y proporcionar una experiencia interactiva.
+Se ha diseñado con un enfoque responsive, garantizando una visualización óptima en una variedad de dispositivos y tamaños de pantalla.
+La maquetización se ha realizado cuidadosamente, siguiendo las mejores prácticas de diseño web.
+Se han creado y utilizado componentes reutilizables para mejorar la escalabilidad y la coherencia del código.
+Interfaces bien definidas aseguran una comunicación clara entre los distintos módulos de la aplicación.
+Despliegue
+Para desplegar el proyecto localmente, sigue estos pasos:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Clona el repositorio:
 
-## Expanding the ESLint configuration
+bash
+Copy code
+git clone https://github.com/tu-usuario/rimec-frontend-challenge.git
+Instala las dependencias:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+bash
+Copy code
+cd rimac-frontend-challenge
+npm install
+Inicia la aplicación:
 
-- Configure the top-level `parserOptions` property like this:
+bash
+Copy code
+npm start
+Esto iniciará la aplicación en tu navegador predeterminado. Si no se abre automáticamente, visita http://localhost:3000.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Nota
+Es importante tener instalado Node.js y npm en tu sistema.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# rimac_challenge_24
+Tecnologías y herramientas utilizadas
+React
+Sass
+TypeScript
+Vite
+API consumidas (mencionar las API específicas si es relevante)
+npm
+Iconos (si los hay, mencionar las bibliotecas utilizadas, por ejemplo, Font Awesome, Material Icons, etc.)
