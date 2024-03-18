@@ -9,7 +9,7 @@ import { Subtitle } from './components/Subtitle';
 import { Title } from './components/Title/Component';
 import { usePlans } from '../../hooks/usePlans';
 import './styles.scss';
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 function Plans() {
   const { handleSelectedPerson, selectedPerson, plansToShow } = usePlans();

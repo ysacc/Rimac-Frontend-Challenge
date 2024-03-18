@@ -1,45 +1,45 @@
-Rimac Frontend Challenge
+# Rimac Frontend Challenge
 
-Este proyecto es una solución al desafío de frontend propuesto por Rimac, donde se emplearon tecnologías como React, Sass, TypeScript, APIs, diseño responsive, maquetización, componentes, interfaces, entre otros. El objetivo principal es proporcionar una aplicación web que cumpla con los requisitos planteados, con un enfoque en la usabilidad y la calidad del código.
+Este proyecto es una solución al desafío de frontend propuesto por Rimac. En este README detallamos las decisiones tomadas, las tecnologías utilizadas y cómo levantar el proyecto localmente.
 
-Características principales
-Utiliza React para la construcción de la interfaz de usuario, proporcionando un enfoque modular y eficiente.
-Se emplea Sass para una gestión más efectiva de los estilos, permitiendo una mejor organización y mantenibilidad del código CSS.
-TypeScript se utiliza para agregar tipado estático a JavaScript, lo que mejora la robustez y la claridad del código.
-La aplicación consume APIs para obtener datos dinámicos y proporcionar una experiencia interactiva.
-Se ha diseñado con un enfoque responsive, garantizando una visualización óptima en una variedad de dispositivos y tamaños de pantalla.
-La maquetización se ha realizado cuidadosamente, siguiendo las mejores prácticas de diseño web.
-Se han creado y utilizado componentes reutilizables para mejorar la escalabilidad y la coherencia del código.
-Interfaces bien definidas aseguran una comunicación clara entre los distintos módulos de la aplicación.
-Despliegue
-Para desplegar el proyecto localmente, sigue estos pasos:
+## Tecnologías utilizadas
 
-Clona el repositorio:
+- **React.js**: Elegí React debido a su popularidad, su eficiencia en la creación de interfaces de usuario interactivas y su amplio ecosistema de bibliotecas y herramientas complementarias.
+- **Sass**: Utilicé Sass para una mejor organización y mantenibilidad de los estilos CSS, permitiendo el uso de variables, mixins y otros beneficios.
+- **Axios**: Para manejar las solicitudes HTTP a las APIs de forma simple y eficiente.
+- **React Router**: Para la gestión de rutas y navegación dentro de la aplicación.
 
-bash
-Copy code
-git clone https://github.com/tu-usuario/rimec-frontend-challenge.git
-Instala las dependencias:
+## Levantar el proyecto
 
-bash
-Copy code
-cd rimac-frontend-challenge
-npm install
-Inicia la aplicación:
+Para levantar el proyecto localmente, sigue estos pasos:
 
-bash
-Copy code
-npm start
-Esto iniciará la aplicación en tu navegador predeterminado. Si no se abre automáticamente, visita http://localhost:3000.
+1. **Clona el repositorio:**
 
-Nota
-Es importante tener instalado Node.js y npm en tu sistema.
+   ```bash
+   git clone https://github.com/tu-usuario/rimec-frontend-challenge.git
+   ```
 
-Tecnologías y herramientas utilizadas
-React
-Sass
-TypeScript
-Vite
-API consumidas (mencionar las API específicas si es relevante)
-npm
-Iconos (si los hay, mencionar las bibliotecas utilizadas, por ejemplo, Font Awesome, Material Icons, etc.)
+2. **Instala las dependencias:**
+
+   ```bash
+   cd rimac-frontend-challenge
+   npm install
+   ```
+
+3. **Inicia la aplicación:**
+
+   ```bash
+   npm start
+   ```
+
+   Esto iniciará la aplicación en tu navegador predeterminado. Si no se abre automáticamente, visita `http://localhost:3000`.
+
+## Notas adicionales
+
+- Durante el desarrollo, me aseguré de mantener un código limpio y escalable, siguiendo las mejores prácticas de programación.
+- Implementé un diseño responsive para garantizar una experiencia de usuario óptima en una variedad de dispositivos y tamaños de pantalla.
+- Todas las tareas, desde el desarrollo de componentes hasta la implementación de la lógica de datos y la maquetación, fueron realizadas por mí.
+
+---
+
+¡Gracias por tu interés en mi proyecto! Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto conmigo.
